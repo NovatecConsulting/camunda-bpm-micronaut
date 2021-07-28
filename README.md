@@ -434,8 +434,8 @@ implementation("info.novatec:micronaut-camunda-bpm-feature:2.0.0") {
     exclude group: 'org.camunda.bpm', module: 'camunda-engine'
 }
 
-implementation("org.camunda.bpm.webapp:camunda-webapp-webjar-ee:7.15.0-ee")
-implementation("org.camunda.bpm:camunda-engine:7.15.0-ee")
+implementation("org.camunda.bpm.webapp:camunda-webapp-webjar-ee:7.16.0-ee")
+implementation("org.camunda.bpm:camunda-engine:7.16.0-ee")
 ```
 </details>
 <details>
@@ -461,12 +461,12 @@ In `pom.xml`:
 <dependency>
   <groupId>org.camunda.bpm.webapp</groupId>
   <artifactId>camunda-webapp-webjar-ee</artifactId>
-  <version>7.15.0-ee</version>
+  <version>7.16.0-ee</version>
 </dependency>
 <dependency>
   <groupId>org.camunda.bpm</groupId>
   <artifactId>camunda-engine</artifactId>
-  <version>7.15.0-ee</version>
+  <version>7.16.0-ee</version>
 </dependency>
 ```
 </details>
@@ -493,7 +493,7 @@ You can either
 Example with the LDAP plugin:
 
 ```groovy
-implementation("org.camunda.bpm.identity:camunda-identity-ldap:7.15.0")
+implementation("org.camunda.bpm.identity:camunda-identity-ldap:7.16.0")
 ```
 
 ```java
